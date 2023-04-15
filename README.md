@@ -45,5 +45,9 @@ $ rails server
 
 heroku
 ```
+# 初期化
 heroku git:remote -a aiit-rails-tutorial-3
+
+# 更新
+git push heroku main
 ```
