@@ -42,3 +42,8 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+heroku
+```
+heroku git:remote -a aiit-rails-tutorial-3
+```
