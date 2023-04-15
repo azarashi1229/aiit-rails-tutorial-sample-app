@@ -67,6 +67,7 @@
     <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.3.3, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.9, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.14.3, ruby-3.2.2-p53) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v1.3.5, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.0.1, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.5, ruby-3.2.2-p53) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.6.2, ruby-3.2.2-p53) [gem]" level="application" />
