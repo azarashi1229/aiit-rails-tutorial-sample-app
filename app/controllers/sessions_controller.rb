@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
     # ぼっち演算子
     if user&.authenticate(params[:session][:password])
       reset_session      # ログインの直前に必ずこれを書くこと
+      remember user
       log_in user
       redirect_to user
     else
