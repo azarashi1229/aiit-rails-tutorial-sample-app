@@ -24,7 +24,7 @@ class SessionsController < ApplicationController
   # RailsでTurboを使うときは、このように303 See Otherステータスを指定することで、DELETEリクエスト後のリダイレクトが正しく振る舞うようにする必要があります24 。\
   # リスト 7.18で使われているステータスコード:unprocessable_entityと見比べてみてください。
   def destroy
-    log_out
+    log_out if logged_in?
     redirect_to root_url, status: :see_other
   end
 end
